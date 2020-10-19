@@ -1,7 +1,5 @@
-# aws-ecs-micro-services
 # Code for Micro-services
-
-# Creation of Micro-services with AWS ECS involves two steps :
+Creation of Micro-services with AWS ECS involves two steps :
 
 # Step 1 : Creation of docker containers
 
