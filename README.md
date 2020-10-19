@@ -1,9 +1,9 @@
 # aws-ecs-micro-services
-Code for Micro-services
+# Code for Micro-services
 
-Creation of Micro-services with AWS ECS involves two steps :
+# Creation of Micro-services with AWS ECS involves two steps :
 
-Step 1 : Creation of docker containers
+# Step 1 : Creation of docker containers
 
 i). Create a docker registry repo in ECS (called ECR) in AWS
 
@@ -21,7 +21,7 @@ vi). Push the image to the registry.
     docker push 668239621066.dkr.ecr.ap-south-1.amazonaws.com/node-js-repo:sample-nodejs-app
     
 	
-Step 2 : Creation of Micro-Services in AWS ECS
+# Step 2 : Creation of Micro-Services in AWS ECS
 
 i). Create 3 task definitions for each of the micro-services. The network mode should be 'Bridge'. Set the host port to 0 and container port to the port defined in the corresponding server.js code. Setting the port 0 on the host enables dynamic host port mapping to use an ALB.
 
